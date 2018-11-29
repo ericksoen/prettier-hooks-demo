@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prettier-hooks';
+
+  public methodWithTestFormating(): void {
+    const item = [
+      {
+        id: 1,
+        title: 'title_1'
+      },
+      {
+        id: 2,
+        title: 'title_2'
+      }
+    ];
+  }
 }
